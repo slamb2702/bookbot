@@ -13,12 +13,12 @@ def count_characters(text):
     chars = {}
     
     for c in text:
-        lowercase = c.lower
+        lowercase = c.lower()
 
         if lowercase in chars:
             chars[lowercase] += 1
         
-        else
+        else:
             chars[lowercase] = 1
 
     return chars
